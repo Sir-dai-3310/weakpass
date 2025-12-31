@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "WeakPass - 弱口令验证工具",
+    "version": "1.0.0",
+    "width": 1000,
+    "height": 750,
+    "theme": "light"
+  },
+  "network": {
+    "timeout": 10,
+    "max_retries": 3,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "delay_between_requests": 1.0,
+    "max_redirects": 5,
+    "verify_ssl": true
+  },
+  "captcha": {
+    "enabled": false,
+    "resize_width": 150,
+    "resize_height": 50,
+    "ocr_config": "--oem 3 --psm 8",
+    "char_whitelist": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "preprocessing": {
+      "use_gaussian_blur": true,
+      "use_morphology": true,
+      "kernel_size": 2
+    }
+  },
+  "login": {
+    "success_keywords": [
+      "欢迎",
+      "welcome",
+      "dashboard",
+      "logout",
+      "退出",
+      "主页",
+      "home",
+      "profile",
+      "设置",
+      "settings",
+      "admin",
+      "用户中心"
+    ],
+    "failure_keywords": [
+      "错误",
+      "error",
+      "失败",
+      "failed",
+      "invalid",
+      "用户名",
+      "密码",
+      "验证码",
+      "captcha",
+      "登录",
+      "login"
+    ],
+    "common_username_fields": [
+      "username",
+      "user",
+      "login",
+      "email",
+      "account"
+    ],
+    "common_password_fields": [
+      "password",
+      "pwd",
+      "pass"
+    ],
+    "common_captcha_fields": [
+      "captcha",
+      "code",
+      "verify",
+      "authcode"
+    ]
+  },
+  "ui": {
+    "log_max_lines": 1000,
+    "auto_clear_log": false,
+    "show_timestamp": true,
+    "font_family": "微软雅黑",
+    "font_size": 9,
+    "theme": "light",
+    "auto_save_history": true,
+    "max_history_items": 50,
+    "show_confidence": true,
+    "auto_focus_next": true
+  },
+  "advanced": {
+    "enable_debug_mode": false,
+    "save_raw_response": false,
+    "enable_proxy": false,
+    "proxy_url": "",
+    "proxy_username": "",
+    "proxy_password": "",
+    "custom_headers": {},
+    "max_concurrent_requests": 5,
+    "request_timeout": 30
+  }
+}

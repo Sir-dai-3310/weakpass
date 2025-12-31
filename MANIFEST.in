@@ -1,0 +1,20 @@
+include README.md
+include LICENSE
+include requirements.txt
+include config_template.json
+include QUICKSTART.md
+include MANIFEST.in
+recursive-include core *.py
+recursive-include docs *.md
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude *.so
+global-exclude *.log
+global-exclude *.csv
+global-exclude *.xlsx
+global-exclude *.xls
+global-exclude passwords.txt
+global-exclude usernames.txt
+global-exclude config.json

@@ -1,0 +1,37 @@
+# 常见用户名列表（示例）
+# ⚠️ 警告：此文件仅用于教育和测试目的
+# 在实际安全审计中，请使用授权的用户名列表
+
+admin
+administrator
+root
+test
+guest
+user
+demo
+staff
+support
+service
+system
+manager
+operator
+supervisor
+webmaster
+info
+contact
+sales
+marketing
+finance
+hr
+it
+dev
+developer
+engineer
+admin1
+admin2
+test1
+test2
+user1
+user2
+demo1
+demo2

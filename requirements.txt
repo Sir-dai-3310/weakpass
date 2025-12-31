@@ -1,0 +1,25 @@
+# 弱口令验证工具 - 核心依赖（必需）
+# 安装命令: pip install -r requirements.txt
+
+# 核心依赖
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+aiohttp>=3.8.0
+chardet>=5.0.0
+
+# Excel导入支持（可选）
+# 如需导入Excel文件，请安装以下依赖：
+# pip install pandas openpyxl xlrd
+# pandas>=1.4.0
+# openpyxl>=3.0.0
+# xlrd>=2.0.0
+
+# 验证码识别（可选）
+# 如需自动识别验证码，请安装以下依赖：
+# pip install Pillow pytesseract opencv-python numpy easyocr
+# 注意：pytesseract需要额外安装Tesseract OCR程序
+# Pillow>=9.0.0
+# pytesseract>=0.3.10
+# opencv-python>=4.6.0
+# numpy>=1.21.0
+# easyocr>=1.7.0
