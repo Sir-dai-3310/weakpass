@@ -77,7 +77,7 @@ git commit -m "Initial commit: WeakPass v1.0.0"
 ### 6. 关联远程仓库
 
 ```bash
-git remote add origin https://github.com/yourusername/weakpass.git
+git remote add origin https://github.com/Sir-dai-3310/weakpass.git
 ```
 
 ### 7. 推送到 GitHub
@@ -118,7 +118,7 @@ twine upload dist/*
 ### 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/weakpass.git
+git clone https://github.com/Sir-dai-3310/weakpass.git
 cd weakpass
 ```
 

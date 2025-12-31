@@ -6,7 +6,7 @@ WeakPass - 弱口令验证工具
 """
 
 __version__ = "1.0.0"
-__author__ = "WeakPass Team"
+__author__ = "Sir-dai-3310"
 __license__ = "MIT"
 __description__ = "弱口令验证工具 - 用于安全审计和学习"
 

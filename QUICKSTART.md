@@ -5,7 +5,7 @@
 ### 1. 克隆或下载项目
 
 ```bash
-git clone https://github.com/yourusername/weakpass.git
+git clone https://github.com/Sir-dai-3310/weakpass.git
 cd weakpass
 ```
 
@@ -159,7 +159,7 @@ tkinter 通常随 Python 一起安装。如果遇到错误：
 ## 获取帮助
 
 - 查看 [README.md](README.md) 获取更多信息
-- 提交 [GitHub Issues](https://github.com/yourusername/weakpass/issues)
+- 提交 [GitHub Issues](https://github.com/Sir-dai-3310/weakpass/issues)
 
 ## 下一步
 

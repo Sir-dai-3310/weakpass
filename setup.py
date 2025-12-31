@@ -30,12 +30,12 @@ def read_requirements(filename='requirements.txt'):
 setup(
     name='weakpass',
     version='1.0.0',
-    author='WeakPass Team',
-    author_email='contact@weakpass.dev',
+    author='Sir-dai-3310',
+    author_email='dzy.3310106484@qq.com',
     description='弱口令验证工具 - 用于安全审计和学习',
     long_description=read_file('README.md'),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/weakpass',
+    url='https://github.com/Sir-dai-3310/weakpass',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -76,8 +76,8 @@ setup(
     include_package_data=True,
     keywords='weakpass security password verification audit',
     project_urls={
-        'Bug Reports': 'https://github.com/yourusername/weakpass/issues',
-        'Source': 'https://github.com/yourusername/weakpass',
-        'Documentation': 'https://github.com/yourusername/weakpass/blob/main/README.md',
+        'Bug Reports': 'https://github.com/Sir-dai-3310/weakpass/issues',
+        'Source': 'https://github.com/Sir-dai-3310/weakpass',
+        'Documentation': 'https://github.com/Sir-dai-3310/weakpass/blob/main/README.md',
     },
 )
